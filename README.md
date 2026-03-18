@@ -44,19 +44,17 @@ MOE: ds_005 (950)
 
 Filter by date range, return total downloads across all agencies:
 
-````
+```
 
 getTotal("2024-01", "2024-02") → 8550
 
 ```
 
-
-
 ## Run the app
 
 ```bash
 mvn compile exec:java
-````
+```
 
 ## Run tests
 
